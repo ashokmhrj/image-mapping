@@ -1,0 +1,75 @@
+#prfx_meta{
+    overflow: hidden;
+    padding-bottom: 1em;
+}
+
+#prfx_meta p{
+    clear: both;
+}
+
+.prfx-row-title{
+    display: block;
+    float: left;
+    width: 200px;
+}
+
+.prfx-row-content{
+    float: left;
+    padding-bottom: 1em;
+}
+
+.prfx-row-content label{
+    display: block;
+    line-height: 1.75em;
+}
+
+/*
+ *------------------------------------------------
+ * MS CSS
+ *------------------------------------------------
+ */
+
+ #mapper_image_preview canvas{
+    background-size: contain;
+    max-width: 100%;
+ }
+
+#coords {
+    background-color: #f9f9f9;
+    border: 1px solid #dfdfdf;
+    border-spacing: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#coords thead th {
+    background-color: #f1f1f1;
+    padding: 5px 8px 8px;
+    text-align: center;;
+}
+
+#coords tr { 
+    border-top: 1px solid #DFDFDF;
+}
+    
+#coords tr:first-child {
+    border-top: none; 
+}
+
+#image_mapping_block input[type=text]{
+     height: 27px;
+}
+
+#coords input[type=text],
+#coords textarea {
+    height: 40px;
+    padding: 11px 15px;
+    margin: 0;
+    width: 100%;
+    line-height: normal;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
